@@ -14,7 +14,6 @@ function render(props) {
 }
 
 if (!window.__POWERED_BY_QIANKUN__) {
-  console.log('init');
   render({});
 }
 
